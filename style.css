@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Open-sans';
+    src: url(assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Open-sans";
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 100;
+    font-size: 18px;
+    color: #395858;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+html {
+    scroll-behavior: smooth;
+} 
+.nav-list {
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+p {
+    text-align: left;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+.nav-link {
+    text-decoration: none;
+    color: #395858;
+}
+.nav-link:hover {
+    color: #4169E1;
+}
+.contact-link:link {
+    color:#395858;
+}
+.contact-link:hover {
+    color: #4169E1;
+}
+.contact-link {
+    text-decoration: none;
+    color: #395858;
+}
+header {
+    background-color: #D2B48C;
+}
+footer {
+    background-color: #D2B48C;
+    text-align: justify;
+}
